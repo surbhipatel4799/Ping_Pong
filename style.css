@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#rod1{
+    height: 31px;
+    width: 200px;
+    min-height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ball{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 33px;
+}
+
+#rod1 p, #rod2 p{
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+#rod2{
+    height: 31px;
+    width: 200px;
+    min-height: 20px;
+    background-color: purple;
+    margin-top: 90vh;
+    border-radius: 20px;
+}
